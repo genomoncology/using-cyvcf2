@@ -26,3 +26,17 @@ Here are the steps for installing cyvcf2:
     cyvcf2==0.20.0
     humanfriendly==8.2
     numpy==1.18.4
+    
+    
+### Installing tabulate
+
+Here are the steps for installing tabulate:
+
+    $ pip install tabulate
+    
+### Running code
+
+Now you can run the code:
+
+    $ python run_me.py
+
