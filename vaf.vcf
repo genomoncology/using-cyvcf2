@@ -1,0 +1,15 @@
+##fileformat=VCFv4.2
+##fileDate=20090805
+##contig=<ID=7,length=159138663>
+##phasing=partial
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
+##INFO=<ID=PP,Number=1,Type=Integer,Description="Total Depth">
+##FILTER=<ID=q10,Description="Quality below 10">
+##FILTER=<ID=s50,Description="Less than 50% of samples have data">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##FORMAT=<ID=AO,Number=1,Type=Integer,Description="Alt Depth">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Ref Depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	703094
+7	140453136	.	A	T	2	.	PP=.	GT:AO:RO:DP:GQ	0/1:2:47:49:.
